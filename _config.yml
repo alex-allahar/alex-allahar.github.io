@@ -1,3 +1,22 @@
-remote_theme: pages-themes/hacker@v0.2.0
+# Site settings
+title: "Your Site Title"
+description: "A short description of your site"
+baseurl: ""  # Leave empty if publishing to your main GitHub Pages URL
+url: "https://yourusername.github.io"  # Your GitHub Pages URL
+
+# Theme
+theme: jekyll-theme-minimal  # Choose a Jekyll theme from GitHub Pages themes
+
+# Author settings
+author:
+  name: "Your Name"
+  email: "you@example.com"
+
+# Other options
+markdown: kramdown  # Markdown processor
+highlighter: rouge  # Syntax highlighter for code snippets
+
+# Plugins
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one 
+  - jekyll-feed  # For RSS feed generation
+  - jekyll-sitemap  # Automatically generate a sitemap
